@@ -6,3 +6,6 @@ Flask-SQLAlchemy
 Flask-Script
 Flask-Migrate
 geoip2
+certifi>=2022.12.7 # not directly required, pinned by Snyk to avoid a vulnerability
+mako>=1.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
+werkzeug>=2.2.3 # not directly required, pinned by Snyk to avoid a vulnerability
