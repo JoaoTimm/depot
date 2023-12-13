@@ -6,3 +6,5 @@ Flask-SQLAlchemy
 Flask-Script
 Flask-Migrate
 geoip2
+aiohttp>=3.9.0 # not directly required, pinned by Snyk to avoid a vulnerability
+werkzeug>=2.3.8 # not directly required, pinned by Snyk to avoid a vulnerability
